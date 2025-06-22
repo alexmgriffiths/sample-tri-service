@@ -1,0 +1,4 @@
+inputs:
+  - proto
+out: gen/rust
+name: tri_services
