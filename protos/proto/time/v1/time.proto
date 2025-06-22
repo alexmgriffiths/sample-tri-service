@@ -1,0 +1,13 @@
+syntax = "proto3";
+package time.v1;
+
+option go_package = "github.com/alexmgriffiths/example-service/go/pkg/proto/time/v1;timev1";
+
+message TimeRequest {}
+message TimeResponse {
+    string iso_utc = 1;
+}
+
+service TimeService {
+    rpc GetServerTime(TimeRequest) returns (TimeResponse);
+}

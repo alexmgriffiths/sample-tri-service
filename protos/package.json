@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@bufbuild/buf": "^1.55.1",
+    "@bufbuild/protobuf": "^2.5.2",
+    "@bufbuild/protoc-gen-es": "^2.5.2"
+  },
+  "name": "protos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+package greeter.v1;
+
+option go_package = "github.com/alexmgriffiths/example-service/go/pkg/proto/greeter/v1;greeterv1";
+
+message HelloRequest {
+    string name = 1;
+}
+
+message HelloReply {
+    string message = 1;
+}
+
+service GreeterService {
+    rpc SayHello (HelloRequest) returns (HelloReply);
+}

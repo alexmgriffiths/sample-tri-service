@@ -1,0 +1,9 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+shared_protos = { path = "../protos/gen/rust" }
+tokio = "1.45.1"
+tonic = "0.13.1"

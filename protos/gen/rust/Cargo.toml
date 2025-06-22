@@ -1,0 +1,8 @@
+[package]
+name = "shared_protos"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tonic = "0.13"
+prost = "0.13"

@@ -1,0 +1,23 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@connectrpc/connect": "^2.0.2",
+    "@connectrpc/connect-node": "^2.0.2",
+    "http2": "^3.3.6",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/connect": "^3.4.38",
+    "ts-node": "^10.9.2"
+  }
+}
