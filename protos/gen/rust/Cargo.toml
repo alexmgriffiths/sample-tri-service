@@ -1,8 +1,9 @@
 [package]
-name = "shared_protos"
+name = "tri_services"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
-tonic = "0.13"
-prost = "0.13"
+prost = "0.13.1"
+tonic = "0.13.1"
+serde = { version = "1.0.219", features = ["derive"] }
